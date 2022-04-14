@@ -5,7 +5,7 @@ import { BsHouse } from 'react-icons/bs';
 function Navbar() {
   return (
    <>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
     
     <a className="navbar-brand " href="#">
@@ -19,7 +19,7 @@ function Navbar() {
       <div className='p-2 test'>Agents</div>
       <div className='p-2 test'>Blogs</div>
       <div className='p-2 test'>Login/signup</div>
-       <button type="button" class="btn btn-primary test">Contact Us</button>
+       <button type="button" class="btn  test">Contact Us</button>
      
     
 
