@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 .showcase{
-    background-image:url('');
-    background-size:cover;
-    background-position:center;
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    
+    font-family: 'Rubik', sans-serif;
+    background-image:url('C:\Users\GENERAL STORES\Desktop\estate\real-estate\src\images\Estately.png');
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 2000px;
+   
+    background-size: cover;
+    background-position: center;
+   
+   height: 75vh;
+ 
+    
     padding:0 20px;
+}
+.showcase p ,h1{
+    margin-left:40px;
+}
+.showcaseText{
+    margin-left: 40px;
+
 }
