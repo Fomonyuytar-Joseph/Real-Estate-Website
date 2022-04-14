@@ -1,13 +1,31 @@
 import React from 'react'
+import './Navbar.css'
+import { BsHouse } from 'react-icons/bs';
 
 function Navbar() {
   return (
    <>
-    <nav className="navbar navbar-light bg-light">
-      <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1">Navbar</span>
-      </div>
-    </nav>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    
+    <a className="navbar-brand " href="#">
+    <BsHouse color='#5e8ea2' size={"1.5em"} style={{marginBottom:'12px'}}/><b style={{ color: '#5e8ea2'} }> Estately</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div className=' d-flex justify-content-evenly'>
+      <div className='p-2 test'>Home</div>
+      <div className='p-2 test'>Our Properties</div>
+      <div className='p-2 test'>Agents</div>
+      <div className='p-2 test'>Blogs</div>
+      <div className='p-2 test'>Login/signup</div>
+       <button type="button" class="btn btn-primary test">Contact Us</button>
+     
+    
+
+    </div>
+  </div>
+</nav>
     </>
   )
 }
