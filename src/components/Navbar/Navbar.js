@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import { BsHouse } from 'react-icons/bs';
+import { ImHome } from 'react-icons/im';
 
 function Navbar() {
   return (
@@ -9,7 +9,7 @@ function Navbar() {
   <div class="container-fluid">
     
     <a className="navbar-brand " href="#">
-    <BsHouse color='#5e8ea2' size={"1.5em"} style={{marginBottom:'12px'}}/><b style={{ color: '#5e8ea2'} }> Estately</b></a>
+    <ImHome color='#5e8ea2' size={"1.5em"} style={{marginBottom:'12px'}}/><b style={{ color: '#5e8ea2'} }> Estately</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
