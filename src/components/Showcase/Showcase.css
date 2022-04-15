@@ -6,20 +6,31 @@
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
-    padding: 2000px;
-   
-    background-size: cover;
-    background-position: center;
-   
-   height: 75vh;
- 
     
-    padding:0 20px;
+   
+   background-size: cover;
+    background-position: center;
+    height: 75vh;
+    z-index: 1;
+    
 }
 .showcase p ,h1{
     margin-left:40px;
+    
 }
 .showcaseText{
     margin-left: 40px;
+    
 
+}
+
+.adjust{
+    margin-top: 200px;
+}
+.tab{
+    z-index: 2;
+}
+
+.tab-pane{
+    background-color: white;
 }

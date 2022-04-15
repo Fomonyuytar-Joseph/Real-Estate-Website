@@ -6,10 +6,12 @@ import {HiHome} from 'react-icons/hi'
 function Showcase() {
     const style={ fontWeight:'bold' , color:'#6e8892'}
     const showCaseStyle ={ marginTop:'50px'}
+    const TabtextStyle={  color: '#5e8ea2' , fontWeight: 'bold' }
+    const boxshadowStyle = { borderRadius: '11px' , background: '#e0e0e0'}
   return (
       <>
     <div className='showcase d-flex flex-column justify-content-center  '>
-        <div  className='showcaseText'>
+        <div  className='showcaseText adjust'>
         <h1>Find your next <span style={{color:'#5e8ea2'}}>perfect</span>  <br/> place with ease</h1>
         <p> Estately will help you find your home fast , easy and comfortable.</p>
         <p> Our expert support are always available Let's start now</p>
@@ -20,24 +22,22 @@ function Showcase() {
         <p><span style={style}><RiMoneyDollarBoxFill color='#5e8ea2' size={'1.4em'} />19k +</span> Properties in the system to buy and sell</p>
         </div>
 
-
-
-    </div>
-    <div class="container my-5">
+       
+        <div class="container my-5 tab">
     <nav>
       <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
-        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+        <button class="nav-link active "  style={TabtextStyle} id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Rent</button>
 
-        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+        <button class="nav-link" style={TabtextStyle}  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Buy</button>
 
-        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+        <button class="nav-link" style={TabtextStyle}  id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Co-Living</button>
 
       </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
 
-      <div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="tab-pane fade show active p-3 " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" >
         <h2>Home</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio provident corporis aut, ipsa tenetur vel illo excepturi voluptate molestiae magnam, totam est id alias dicta a assumenda corrupti et repellat.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio provident corporis aut, ipsa tenetur vel illo excepturi voluptate molestiae magnam, totam est id alias dicta a assumenda corrupti et repellat.</p>
@@ -57,6 +57,9 @@ function Showcase() {
       
     </div>
   </div>
+
+    </div>
+ 
     </>
   )
 }
