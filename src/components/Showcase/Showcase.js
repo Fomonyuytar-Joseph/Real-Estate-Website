@@ -71,12 +71,12 @@ function Showcase() {
       <div className='main-container'>
           <div className='element1'>
             <p>location</p>
-            <p style={TextStyle}>Tibilisi</p>
+            <p style={TextStyle}>Buea</p>
           </div>
 
           <div className='element2'>
             <p>Property Type</p>
-            <p style={TextStyle}>Private House</p>
+            <p style={TextStyle}>Guest House</p>
           </div>
 
           <div className='element3'>
@@ -86,7 +86,7 @@ function Showcase() {
 
           <div className='element4'>
             <p>Property Price Range</p>
-            <p style={TextStyle}>$85000 - $95000m²</p>
+            <p style={TextStyle}>$50000 - $75000m²</p>
           </div>
 
            <div className='element5'>
@@ -101,12 +101,12 @@ function Showcase() {
       <div className='main-container'>
           <div className='element1'>
             <p>location</p>
-            <p style={TextStyle}>Tibilisi</p>
+            <p style={TextStyle}>Muea</p>
           </div>
 
           <div className='element2'>
             <p>Property Type</p>
-            <p style={TextStyle}>Private House</p>
+            <p style={TextStyle}>Private Cite</p>
           </div>
 
           <div className='element3'>
@@ -116,7 +116,7 @@ function Showcase() {
 
           <div className='element4'>
             <p>Property Price Range</p>
-            <p style={TextStyle}>$85000 - $95000m²</p>
+            <p style={TextStyle}>$65000 - $105000m²</p>
           </div>
 
            <div className='element5'>
