@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
 .showcase{
     
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image:url('C:\Users\GENERAL STORES\Desktop\estate\real-estate\src\images\Estately.png');
     margin-left: 10px;
     margin-right: 10px;
@@ -33,4 +35,29 @@
 
 .tab-pane{
     background-color: white;
+}
+
+.main-container{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 80px 80px;
+   justify-content: center;
+   align-items: stretch;
+   align-items: center;
+   align-content: center;
+    
+   
+
+
+}
+
+.element1 , .element2 , .element3 , .element4 ,.element5 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.element5{
+    margin-left: 35px;
 }

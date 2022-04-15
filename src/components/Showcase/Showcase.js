@@ -5,9 +5,10 @@ import {HiHome} from 'react-icons/hi'
 
 function Showcase() {
     const style={ fontWeight:'bold' , color:'#6e8892'}
+    const TextStyle={ fontWeight:'bolder' , color:'#546e79'}
     const showCaseStyle ={ marginTop:'50px'}
     const TabtextStyle={  color: '#5e8ea2' , fontWeight: 'bold' }
-    const boxshadowStyle = { borderRadius: '11px' , background: '#e0e0e0' , boxShadow:' 29px 29px 58px #bebebe, -29px -29px 58px #ffffff'}
+   const ButtonStyle ={ backgroundColor:' #5e8ea2' ,  color:'white' , width:'160px' , height:'60px'}
   return (
       <>
     <div className='showcase d-flex flex-column justify-content-center  '>
@@ -38,18 +39,92 @@ function Showcase() {
     <div class="tab-content" id="nav-tabContent">
 
       <div class="tab-pane fade show active p-3 rounded-bottom  Small shadow" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" >
-        
+        <div className='main-container'>
+          <div className='element1'>
+            <p>location</p>
+            <p style={TextStyle}>Tibilisi</p>
+          </div>
+
+          <div className='element2'>
+            <p>Property Type</p>
+            <p style={TextStyle}>Private House</p>
+          </div>
+
+          <div className='element3'>
+            <p>Property Size</p>
+            <p style={TextStyle}>120m² - 150m²</p>
+          </div>
+
+          <div className='element4'>
+            <p>Property Price Range</p>
+            <p style={TextStyle}>$85000 - $95000m²</p>
+          </div>
+
+           <div className='element5'>
+           <button type="button" class="btn  btn-lg " style={ButtonStyle}>Search</button>
+           </div>
+
+        </div>
+      </div>
 
       <div class="tab-pane fade p-3 rounded-bottom Small shadow" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-        <h2>Profile</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate nam aperiam possimus, ratione modi enim inventore reiciendis ipsum mollitia, adipisci accusamus! Dolorem omnis illo incidunt ex, sit minus numquam.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate nam aperiam possimus, ratione modi enim inventore reiciendis ipsum mollitia, adipisci accusamus! Dolorem omnis illo incidunt ex, sit minus numquam.</p>
+      <div className='main-container'>
+          <div className='element1'>
+            <p>location</p>
+            <p style={TextStyle}>Tibilisi</p>
+          </div>
+
+          <div className='element2'>
+            <p>Property Type</p>
+            <p style={TextStyle}>Private House</p>
+          </div>
+
+          <div className='element3'>
+            <p>Property Size</p>
+            <p style={TextStyle}>120m² - 150m²</p>
+          </div>
+
+          <div className='element4'>
+            <p>Property Price Range</p>
+            <p style={TextStyle}>$85000 - $95000m²</p>
+          </div>
+
+           <div className='element5'>
+           <button type="button" class="btn  btn-lg " style={ButtonStyle}>Search</button>
+           </div>
+
+        </div>
+        
       </div>
 
       <div class="tab-pane fade p-3  rounded-bottom  Small shadow " id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-        <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates nostrum vel officiis! Magni animi assumenda numquam exercitationem facilis! Excepturi, doloremque illo. Voluptate, natus molestias? Enim repellendus earum ad sunt!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates nostrum vel officiis! Magni animi assumenda numquam exercitationem facilis! Excepturi, doloremque illo. Voluptate, natus molestias? Enim repellendus earum ad sunt!</p>
+      <div className='main-container'>
+          <div className='element1'>
+            <p>location</p>
+            <p style={TextStyle}>Tibilisi</p>
+          </div>
+
+          <div className='element2'>
+            <p>Property Type</p>
+            <p style={TextStyle}>Private House</p>
+          </div>
+
+          <div className='element3'>
+            <p>Property Size</p>
+            <p style={TextStyle}>120m² - 150m²</p>
+          </div>
+
+          <div className='element4'>
+            <p>Property Price Range</p>
+            <p style={TextStyle}>$85000 - $95000m²</p>
+          </div>
+
+           <div className='element5'>
+           <button type="button" class="btn  btn-lg " style={ButtonStyle}>Search</button>
+           </div>
+
+        </div>
+        
       </div>
       
     </div>
