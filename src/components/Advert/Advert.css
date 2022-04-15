@@ -1,0 +1,6 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 2 80%;
+    grid-template-rows: 40%  60%;
+}
+

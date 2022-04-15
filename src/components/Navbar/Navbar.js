@@ -3,7 +3,9 @@ import './Navbar.css'
 import { ImHome } from 'react-icons/im';
 
 function Navbar() {
+  const ButtonStyle ={ backgroundColor:' #5e8ea2' ,  color:'white' }
   return (
+    
    <>
    <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
@@ -19,7 +21,7 @@ function Navbar() {
       <div className='p-2 test'>Agents</div>
       <div className='p-2 test'>Blogs</div>
       <div className='p-2 test'>Login/signup</div>
-       <button type="button" class="btn btn-primary  test">Contact Us</button>
+       <button type="button" class="btn  test" style={ButtonStyle}>Contact Us</button>
      
     
 
