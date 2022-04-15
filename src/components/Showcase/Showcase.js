@@ -7,7 +7,7 @@ function Showcase() {
     const style={ fontWeight:'bold' , color:'#6e8892'}
     const showCaseStyle ={ marginTop:'50px'}
     const TabtextStyle={  color: '#5e8ea2' , fontWeight: 'bold' }
-    const boxshadowStyle = { borderRadius: '11px' , background: '#e0e0e0'}
+    const boxshadowStyle = { borderRadius: '11px' , background: '#e0e0e0' , boxShadow:' 29px 29px 58px #bebebe, -29px -29px 58px #ffffff'}
   return (
       <>
     <div className='showcase d-flex flex-column justify-content-center  '>
@@ -23,11 +23,11 @@ function Showcase() {
         </div>
 
        
-        <div class="container my-5 tab">
+        <div class="container my-5 tab rounded "  >
     <nav>
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <div class="nav nav-tabs" id="nav-tab" role="tablist" >
 
-        <button class="nav-link active "  style={TabtextStyle} id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Rent</button>
+        <button class="nav-link active  "  style={TabtextStyle} id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Rent</button>
 
         <button class="nav-link" style={TabtextStyle}  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Buy</button>
 
@@ -37,19 +37,16 @@ function Showcase() {
     </nav>
     <div class="tab-content" id="nav-tabContent">
 
-      <div class="tab-pane fade show active p-3 " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" >
-        <h2>Home</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio provident corporis aut, ipsa tenetur vel illo excepturi voluptate molestiae magnam, totam est id alias dicta a assumenda corrupti et repellat.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio provident corporis aut, ipsa tenetur vel illo excepturi voluptate molestiae magnam, totam est id alias dicta a assumenda corrupti et repellat.</p>
-      </div>
+      <div class="tab-pane fade show active p-3 rounded-bottom  Small shadow" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" >
+        
 
-      <div class="tab-pane fade p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="tab-pane fade p-3 rounded-bottom Small shadow" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
         <h2>Profile</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate nam aperiam possimus, ratione modi enim inventore reiciendis ipsum mollitia, adipisci accusamus! Dolorem omnis illo incidunt ex, sit minus numquam.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate nam aperiam possimus, ratione modi enim inventore reiciendis ipsum mollitia, adipisci accusamus! Dolorem omnis illo incidunt ex, sit minus numquam.</p>
       </div>
 
-      <div class="tab-pane fade p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+      <div class="tab-pane fade p-3  rounded-bottom  Small shadow " id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
         <h2>Contact</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates nostrum vel officiis! Magni animi assumenda numquam exercitationem facilis! Excepturi, doloremque illo. Voluptate, natus molestias? Enim repellendus earum ad sunt!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates nostrum vel officiis! Magni animi assumenda numquam exercitationem facilis! Excepturi, doloremque illo. Voluptate, natus molestias? Enim repellendus earum ad sunt!</p>
