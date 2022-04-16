@@ -27,7 +27,7 @@ function Cards() {
     <div class='row'>
       <div class='col-md-3'>
 
-      <div class="card" style={{width: '20rem'}}>
+      <div class="card" style={{width: '20rem' }}>
   <img src={im1} class="card-img-top" alt="..."/>
   <div class="card-img-overlay d-flex flex-row justify-content-between z-index-1">
     <div>
@@ -94,7 +94,7 @@ function Cards() {
 
       <div class='col-md-3'>
 
-      <div class="card" style={{width: '20rem'}}>
+      <div class="card" style={{width: '20rem' , marginTop:'20px'}}>
   <img src={im2} class="card-img-top" alt="..."/>
   <div class="card-img-overlay d-flex flex-row justify-content-between z-index-1">
     <div>
@@ -164,7 +164,7 @@ function Cards() {
   
       <div class='col-md-3'>
 
-      <div class="card" style={{width: '20rem'}}>
+      <div class="card" style={{width: '20rem' , marginTop:'20px'}}>
   <img src={im3} class="card-img-top" alt="..."/>
   <div class="card-img-overlay d-flex flex-row justify-content-between z-index-1">
     <div>
@@ -231,7 +231,7 @@ function Cards() {
 
    <div class='col-md-3'>
 
-      <div class="card" style={{width: '20rem'}}>
+      <div class="card" style={{width: '20rem' , marginTop:'20px'}}>
   <img src={im4} class="card-img-top" alt="..."/>
   <div class="card-img-overlay d-flex flex-row justify-content-between z-index-1">
     <div>
