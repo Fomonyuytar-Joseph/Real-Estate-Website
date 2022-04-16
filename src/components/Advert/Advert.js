@@ -1,7 +1,7 @@
 import React from 'react'
 import './Advert.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane ,faShield ,faLock} from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane ,faShield ,faLock, faFileInvoiceDollar} from '@fortawesome/free-solid-svg-icons'
 
 
 function Advert() {
@@ -59,7 +59,7 @@ function Advert() {
 
         <div className='main-cont mt-5'>
         <div  >
-        <span  className='TextLogo'><FontAwesomeIcon icon={faLock} /></span>
+        <span  className='TextLogo'><FontAwesomeIcon icon={faFileInvoiceDollar} /></span>
             </div>
             <div>
             <h5>Low Cost on Taxes</h5>

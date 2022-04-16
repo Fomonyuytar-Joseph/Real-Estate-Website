@@ -23,11 +23,11 @@ function Cards() {
   
   
   return (
-    <div class='d-flex flex-row justify-content-center flex-wrap'>
-    <div class='row'>
+    <div class='d-flex flex-row justify-content-center  flex-wrap mr-3' style={{marginLeft:'65px'}}>
+    <div class='row '>
       <div class='col-md-3'>
 
-      <div class="card" style={{width: '20rem' }}>
+      <div class="card" style={{width: '20rem' , marginTop:'20px' }}>
   <img src={im1} class="card-img-top" alt="..."/>
   <div class="card-img-overlay d-flex flex-row justify-content-between z-index-1">
     <div>
@@ -238,7 +238,7 @@ function Cards() {
     <button type='button' class="btn card-title " style={ButtonStyle}>FEATURING</button>
     </div>
     <div>
-    <button type='button' class="btn card-title " style={ButtonStyle2}>FOR Rent</button>
+    <button type='button' class="btn card-title " style={ButtonStyle2}>FOR RENT</button>
 
     </div>
    
