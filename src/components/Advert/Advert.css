@@ -1,6 +1,35 @@
-.main-container{
+.main-disp{
+    margin-bottom: 100px ;
+    
+    
+
+} 
+
+
+.main-cont{
+    margin-left:60px;
     display: grid;
-    grid-template-columns: 2 80%;
-    grid-template-rows: 40%  60%;
+    grid-template-columns: 15% 55%;
+    grid-template-rows: 40px  60px;
 }
+
+.lastText{
+    padding-top: 20px;
+    grid-column-start: 1;
+    grid-column-end:3;
+
+
+}
+
+.TextLogo{
+    background-color: #5e8ea2;
+    color:white;
+    width:50px;
+    height:50px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+
 
