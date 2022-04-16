@@ -8,8 +8,8 @@ function Advert() {
     
    
   return (
-    <div className='main-disp d-flex justify-content-around'>
-      <div className='main-cont'>
+    <div className='main-disp d-flex justify-content-around flex-wrap '>
+      <div className='main-cont mt-4'>
         <div  >
         <span  className='TextLogo'><FontAwesomeIcon icon={faPaperPlane} /></span>
             </div>
@@ -25,7 +25,7 @@ function Advert() {
 
         </div>
 
-        <div className='main-cont'>
+        <div className='main-cont mt-5'>
         <div  >
         <span  className='TextLogo'><FontAwesomeIcon icon={faShield} /></span>
             </div>
@@ -41,7 +41,7 @@ function Advert() {
 
         </div>
 
-        <div className='main-cont'>
+        <div className='main-cont mt-5'>
         <div  >
         <span  className='TextLogo'><FontAwesomeIcon icon={faLock} /></span>
             </div>
@@ -57,7 +57,7 @@ function Advert() {
 
         </div>
 
-        <div className='main-cont'>
+        <div className='main-cont mt-5'>
         <div  >
         <span  className='TextLogo'><FontAwesomeIcon icon={faLock} /></span>
             </div>

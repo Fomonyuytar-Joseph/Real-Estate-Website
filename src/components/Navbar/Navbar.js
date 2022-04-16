@@ -1,33 +1,55 @@
 import React from 'react'
 import './Navbar.css'
-import { ImHome } from 'react-icons/im';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   const ButtonStyle ={ backgroundColor:' #5e8ea2' ,  color:'white' }
   return (
     
    <>
-   <nav class="navbar navbar-expand-lg navbar-light bg-white">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    
-    <a className="navbar-brand " href="#">
-    <ImHome color='#5e8ea2' size={"1.5em"} style={{marginBottom:'12px'}}/><b style={{ color: '#5e8ea2'} }> Estately</b></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="yu" style={{color:'#5e8ea2'}} ><span style={{color:'#5e8ea2' }}><FontAwesomeIcon icon={faHouse} /></span> Estately</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div className=' d-flex justify-content-evenly'>
-      <div className='p-2 test'>Home</div>
-      <div className='p-2 test'>Our Properties</div>
-      <div className='p-2 test'>Agents</div>
-      <div className='p-2 test'>Blogs</div>
-      <div className='p-2 test'>Login/signup</div>
-       <button type="button" class="btn  test" style={ButtonStyle}>Contact Us</button>
-     
-    
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="yu">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="yu">Our Properties</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="yu">Agents</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="yu">Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="yu">Login/SignUp</a>
+        </li>
 
+        <li class="nav-item">
+          <a class="nav-link" href="yu"><button type="button" class="btn btn-sm" style={ButtonStyle}>contact Us</button></a>
+        </li>
+        
+      </ul>
     </div>
   </div>
 </nav>
+
+
+
+
+
+     
+    
+
+  
     </>
   )
 }

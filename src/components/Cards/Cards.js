@@ -23,7 +23,7 @@ function Cards() {
   
   
   return (
-    <div class='d-flex flex-row justify-content-center'>
+    <div class='d-flex flex-row justify-content-center flex-wrap'>
     <div class='row'>
       <div class='col-md-3'>
 
