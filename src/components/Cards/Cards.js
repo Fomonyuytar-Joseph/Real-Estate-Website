@@ -1,9 +1,13 @@
 import React from 'react'
 import './Cards.css'
 import p1 from './images/p1.jpg'
+import p2 from './images/p2.jpg'
+import p3 from './images/p3.jpg'
+import p4 from './images/p4.jpg'
 import im1 from  './images/im1.jpg'
 import im3 from  './images/im3.jpg'
 import im2 from  './images/im2.jpg'
+import im4 from  './images/im4.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart ,faBed ,faBath, faWarehouse , faSignal} from '@fortawesome/free-solid-svg-icons'
 
@@ -213,7 +217,7 @@ function Cards() {
   </div>
 
   <div class="card-footer d-flex  flex-row justify-content-between bg-transparent">
-  <div><h5 style={style}>$100.000</h5></div>  
+  <div><h5 style={style}>$70.000</h5></div>  
 
     <div>
       <span style={iconStyle}><FontAwesomeIcon icon={faHeart} /></span>
@@ -228,7 +232,7 @@ function Cards() {
    <div class='col-md-3'>
 
       <div class="card" style={{width: '20rem'}}>
-  <img src={im3} class="card-img-top" alt="..."/>
+  <img src={im4} class="card-img-top" alt="..."/>
   <div class="card-img-overlay d-flex flex-row justify-content-between z-index-1">
     <div>
     <button type='button' class="btn card-title " style={ButtonStyle}>FEATURING</button>
@@ -241,7 +245,7 @@ function Cards() {
     
   </div>
   <div class='d-flex flex-row justify-content-end z-index-2 ' style={{marginBottom:'1px'}}>
-  <img src={p1}  alt="........." class='rounded-circle img-thumbnail' style={ImageStyle} />
+  <img src={p4}  alt="........." class='rounded-circle img-thumbnail' style={ImageStyle} />
   </div>
   <div class="card-body">
     <p class="card-text" style={TextStyle}> Apartment At The Heart Of The City</p>
